@@ -1,0 +1,78 @@
+{
+  "employee": [
+    {
+      "img": "https://www.wwe.com/f/styles/wwe_large/public/all/2019/10/RAW_06202016rf_1606--3d3997f53e6f3e9277cd5a67fbd8f31f.jpg",
+      "name": "kishor",
+      "city": "pune",
+      "education": "nca",
+      "role": "Fighter",
+      "salary": "s",
+      "id": 7
+    },
+    {
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS7d4Gk9qqgJRhwrbo6UmNx4S-v3iA8t2fp4LdatmRqwWK_ah9TtdHukpnDG8m5CzOSMeZWLLT6hBGwU5g",
+      "name": "Brock Lesner",
+      "city": "pune",
+      "education": "MMA",
+      "role": "WWE",
+      "salary": "s",
+      "id": 9
+    },
+    {
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS7d4Gk9qqgJRhwrbo6UmNx4S-v3iA8t2fp4LdatmRqwWK_ah9TtdHukpnDG8m5CzOSMeZWLLT6hBGwU5g",
+      "name": "Brock Lesner",
+      "city": "pune",
+      "education": "MMA",
+      "role": "pthon",
+      "salary": "34536",
+      "id": 10
+    },
+    {
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS7d4Gk9qqgJRhwrbo6UmNx4S-v3iA8t2fp4LdatmRqwWK_ah9TtdHukpnDG8m5CzOSMeZWLLT6hBGwU5g",
+      "name": "kishor",
+      "city": "satara",
+      "education": "MMA",
+      "role": "WWE",
+      "salary": "3000",
+      "id": 11
+    },
+    {
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS7d4Gk9qqgJRhwrbo6UmNx4S-v3iA8t2fp4LdatmRqwWK_ah9TtdHukpnDG8m5CzOSMeZWLLT6hBGwU5g",
+      "name": "nitin",
+      "city": "pune",
+      "education": "MMA",
+      "role": "WW",
+      "salary": "3343545",
+      "id": 12
+    },
+    {
+      "img": "https://www.wwe.com/f/styles/wwe_large/public/all/2019/10/RAW_06202016rf_1606--3d3997f53e6f3e9277cd5a67fbd8f31f.jpg",
+      "name": "nitin",
+      "city": "pune",
+      "education": "MMA",
+      "role": "rrr",
+      "salary": "dvg",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "id":  1,
+      "name":"kishor",
+      "password":"kishor123"
+    },
+    {
+      "id": 2,
+      "name":"rob",
+      "password":"rob123"
+    },
+    {
+      "id": 3,
+      "name":"van",
+      "password":"van123"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,38 @@
+<nav class="navbar sticky-top navbar-dark bg-primary h-100">
+<div class="container-fluid">
+<h2 class="text-white">Employee Management System</h2>
+<button class="btn btn-danger" (click)="logOut()">Log Out <i class="fa-solid fa-right-from-bracket"></i></button>
+</div>
+</nav>
+
+<button class="btn btn-primary mt-2" routerLink="/add"><i class="fa-solid fa-plus"></i> Add Employee</button>
+<div> <input type="text" class="form-control" placeholder="Search employees" [(ngModel)]="term"></div>
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Education</th>
+            <th>Role</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of empData |filter:term | paginate: { itemsPerPage: 3,currentPage: p}">
+            <td>{{e._id}}</td>
+            <td><img [src]="e.img" [alt]="e.name" style="height: 100px;"></td>
+            <td>{{e.name}}</td>
+            <td>{{e.city}}</td>
+            <td>{{e.education}}</td>
+            <td>{{e.role}}</td>
+            <td >{{e.salary}}</td>  
+            <td>
+                <button class="btn btn-success mx-2" [routerLink]="['/edit',e._id]">Edit <i class="fa-solid fa-pen-to-square"></i></button>
+                <button class="btn btn-danger mx-2" (click)="deleteRecord(e._id)">Delete <i class="fa-solid fa-trash"></i></button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>

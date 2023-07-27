@@ -1,0 +1,30 @@
+<div class="container" >
+    <form class="form" #myForm="ngForm" (ngSubmit)="Update(myForm.value)">
+        
+        <label for>Enter Employee Photo</label>
+        <input type="text" name="img" placeholder="Enter Employee pic url" class="form-control"
+        [ngModel]="empData?.img" required>
+    
+
+        <label for>Enter Employee Name</label>
+        <input type="text" name="name" placeholder="Enter Employee name" class="form-control" 
+        [ngModel]="empData?.name" required>
+    
+        <label for>Enter Employee City</label>
+        <input type="text" name="city" placeholder="Enter Employee city" class="form-control" 
+        [ngModel]="empData?.city"  required>
+    
+        <label for>Enter Employee Education</label>
+        <input type="text" name="education" placeholder="Enter Employee name" class="form-control"
+        [ngModel]="empData?.education" required>
+    
+        <label for>Enter Employee Role</label>
+        <input type="text" name="role" placeholder="Enter Employee name" class="form-control" 
+        [ngModel]="empData?.role" required>
+    
+        <label for>Enter Employee Salary</label>
+        <input type="text" name="salary" placeholder="Enter Employee name" class="form-control"
+        [ngModel]="empData?.salary" required>
+        <button type="submit" class="btn btn-primary mt-2" >Update Record</button>
+    </form>
+</div>
